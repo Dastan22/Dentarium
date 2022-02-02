@@ -1,0 +1,108 @@
+#panelProducts input[name="searchString"] {
+    background: #ffffff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#panelProducts .product-card {
+    min-width: 23% !important;
+    max-width: 23% !important;
+    margin-right: 2.55%;
+    margin-bottom: 2.55%;
+    background: #ffffff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+#panelProducts a.product-card,
+#panelProducts a.product-card:hover {
+    text-decoration: none;
+    color: #292929;
+}
+
+#panelProducts .product-card:nth-child(4n) {
+    margin-right: 0;
+}
+
+#panelProducts .product-card .product-delete-btn.not-allowed {
+    opacity: 0.5;
+    cursor: not-allowed !important;
+}
+
+@media (min-width: 1500px) {
+    #panelProducts .product-card {
+        min-width: 19% !important;
+        max-width: 19% !important;
+        margin-right: 1.2%;
+        margin-bottom: 1.2%;
+    }
+
+    #panelProducts .product-card:nth-child(5n) {
+        margin-right: 0;
+    }
+
+    #panelProducts .product-card:nth-child(4n) {
+        margin-right: 1.2%;
+    }
+}
+
+@media (max-width: 1200px) {
+    #panelProducts .product-card {
+        min-width: 32% !important;
+        max-width: 32% !important;
+        margin-right: 2%;
+        margin-bottom: 2%;
+    }
+
+    #panelProducts .product-card:nth-child(4n) {
+        margin-right: 2%;
+    }
+
+    #panelProducts .product-card:nth-child(3n) {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 900px) {
+    #panelProducts .product-card {
+        min-width: 48% !important;
+        max-width: 48% !important;
+        margin-right: 3.7% !important;
+        margin-bottom: 3.7%;
+    }
+
+    #panelProducts .product-card:nth-child(3n) {
+        margin-right: 3.7%;
+    }
+
+    #panelProducts .product-card:nth-child(2n) {
+        margin-right: 0 !important;
+    }
+}
+
+@media (max-width: 400px) {
+    #panelProducts .product-card {
+        min-width: 100% !important;
+        max-width: 100% !important;
+        margin-right: 0 !important;
+    }
+}
+
+#panelProducts .product-card .product-card-image {
+    height: 120px;
+}
+
+#panelProducts .product-card .product-card-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+#panelProducts .product-card .product-card-status {
+    font-size: 0.8rem;
+}
+
+#panelProducts .product-card .product-card-price {
+    font-weight: 800;
+}

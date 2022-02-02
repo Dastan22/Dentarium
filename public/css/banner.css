@@ -1,0 +1,16 @@
+#banner {
+    background: #F2F2F2;
+    height: 400px;
+    margin-bottom: 80px;
+}
+
+#banner h3 {
+    color: #4DBE18;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+#banner .app-links {
+    width: 340px;
+}

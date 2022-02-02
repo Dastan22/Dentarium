@@ -1,0 +1,202 @@
+header .header-logo img {
+    height: 50px;
+}
+
+#goCabinetButton,
+#changeLanguageButton {
+    text-decoration: none;
+    font-weight: 500;
+    color: #000000;
+    font-size: 0.9rem;
+}
+
+#searchField {
+    height: 30px;
+    border: 1px solid #000000;
+    border-radius: 60px;
+    color: #919191;
+}
+
+#searchField input {
+    background: none;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+#goCabinetMobileButton,
+#goCabinetMobileButton:hover {
+    text-decoration: none;
+    font-weight: 500;
+    color: #212529;
+    font-size: 0.9rem;
+}
+
+#showCategoryButton {
+    font-weight: 500;
+}
+
+#goFavoritesButton span {
+    color: #4DBE18 !important;
+}
+
+.under-logo-line .line {
+    width: 280px;
+    border: 1px solid;
+    background: #000000;
+}
+
+#mobileNavbar {
+    background: #ffffff;
+    min-width: 320px;
+}
+
+#mobileNavbar .mobile-navbar-button {
+    height: 60px;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+#dropdownCategories {
+    left: 0;
+    background-color: #ffffff;
+    height: 500px;
+    z-index: 10;
+}
+
+#dropdownCategories #mainCategoriesContainer {
+    width: 350px;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+
+#dropdownCategories #mainCategoriesContainer::-webkit-scrollbar {
+    display: none;
+}
+
+#dropdownCategories #mainCategoriesContainer .category-item a {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #211F20;
+    letter-spacing: 0.02em;
+    line-height: 17px;
+    text-decoration: none;
+}
+
+#dropdownCategories #mainCategoriesContainer .category-item.active {
+    background-color: #ffffff;
+}
+
+#dropdownCategories #mainCategoriesContainer .category-item.active a {
+    color: #4DBE18;
+}
+
+#dropdownCategories #mainCategoriesContainer .category-item.active .icon {
+    opacity: 0;
+}
+
+#dropdownCategories #innerCategoriesContainer {
+    overflow-y: scroll;
+}
+
+#dropdownCategories #innerCategoriesContainer::-webkit-scrollbar {
+    display: none;
+}
+
+#dropdownCategories #innerCategoriesContainer a.category-header {
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+    margin-bottom: 18px !important;
+    margin-top: 10px !important;
+}
+
+#dropdownCategories #innerCategoriesContainer .line {
+    margin-top: 8px;
+    border-bottom: 1px solid #3F3F3F;
+}
+
+#dropdownCategories #innerCategoriesContainer a,
+#dropdownCategories #innerCategoriesContainer div {
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #211F20;
+    font-weight: 300;
+    font-size: 0.9rem;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+#dropdownMobileCategories {
+    background-color: #ffffff;
+    bottom: 100%;
+    left: 0;
+    height: calc(100vh - 84px);
+    z-index: 10;
+}
+
+#dropdownMobileCategories .categories-mobile-container::-webkit-scrollbar {
+    display: none;
+}
+
+#dropdownMobileCategories .category-item {
+    margin-bottom: 12px;
+}
+
+#dropdownMobileCategories .category-item a,
+#dropdownMobileCategories .category-item .empty {
+    color: #211F20;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 17px;
+}
+
+#dropdownMobileCategories .category-item .icon {
+    transform: rotate(0);
+    transition: all ease 200ms;
+}
+
+
+@media (max-width: 1000px) {
+    #dropdownCategories #mainCategoriesContainer {
+        width: 250px;
+    }
+
+    #dropdownCategories #innerCategoriesContainer a.category-header {
+        font-size: 0.9rem !important;
+    }
+
+    #dropdownCategories #innerCategoriesContainer a,
+    #dropdownCategories #innerCategoriesContainer div {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 870px) {
+    header .header-logo img {
+        height: 40px;
+    }
+
+    #showCategoryButton,
+    #searchButton,
+    #goFavoritesButton,
+    #goCartButton,
+    #changeLanguageButton {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #dropdownCategories {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    header .header-logo img {
+        height: 35px;
+    }
+
+    .under-logo-line .line {
+        width: 100%;
+    }
+}

@@ -1,0 +1,33 @@
+#panelNav,
+#panelContent {
+    width: 300px;
+    height: calc(100vh - 82px);
+}
+
+#panelNav h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+#panelNav .panel-nav-item:last-child {
+    border-bottom: 1px solid;
+}
+
+#panelNav .panel-nav-item {
+    border-top: 1px solid;
+    color: #292929;
+}
+
+#panelNav .panel-nav-item.active p {
+    font-weight: 600;
+}
+
+#panelNav .panel-nav-item p {
+    color: #292929;
+}
+
+#panelContent {
+    background-color: #F6F6F6;
+    overflow-y: scroll;
+    padding-bottom: 50px !important;
+}

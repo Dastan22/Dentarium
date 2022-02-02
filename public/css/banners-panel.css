@@ -1,0 +1,32 @@
+#panelBanners h3 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#panelBanners #desktopBannersContainer,
+#panelBanners #mobileBannersContainer {
+    overflow-y: scroll;
+}
+
+#panelBanners input[type="text"] {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #292929;
+    letter-spacing: 0.02rem;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+}
+
+#panelBanners button {
+    background: #4DBE18;
+    color: #ffffff;
+    font-size: 0.9rem;
+    border: none;
+    outline: none;
+}
+
+#panelBanners form.not-allowed button {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

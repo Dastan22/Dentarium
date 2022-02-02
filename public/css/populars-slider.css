@@ -1,0 +1,29 @@
+#popularsSliderMobile h3 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    max-width: 60%;
+}
+
+#popularsSliderDesktop {
+    margin-bottom: 80px;
+}
+
+#popularsSliderDesktop h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    max-width: 60%;
+}
+
+#popularsSliderDesktop .swiper-scrollbar-drag {
+    background: #4DBE18 !important;
+}
+
+#popularsSliderMobile .slider-item {
+    width: 150px;
+    height: 273px;
+}
+
+#popularsSliderDesktop .slider-item {
+    width: 500px;
+    height: 300px;
+}

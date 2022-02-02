@@ -1,0 +1,44 @@
+#panelOrders input[name="search"] {
+    background: #ffffff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#panelOrders #ordersContainer {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+#panelOrders #ordersContainer::-webkit-scrollbar {
+    display: none;
+}
+
+#panelOrders #ordersContainer .order-item {
+    padding: 10px 24px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#panelOrders #ordersContainer .order-item .order-id {
+    font-weight: 500;
+}
+
+#panelOrders #ordersContainer .order-item .order-arrange-time {
+    color: #999999;
+}
+
+#panelOrders #ordersContainer .order-item .order-more-button {
+    font-size: 0.9rem;
+    color: #4DBE18;
+}
+
+#panelOrders #ordersContainer .order-item .order-more-button.not-allowed {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#panelOrders .order-data {
+    background-color: #ffffff;
+    border-left: 4px solid #4DBE18;
+}

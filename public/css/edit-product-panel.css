@@ -1,0 +1,52 @@
+#panelEditProduct .form-item-title {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #292929;
+    letter-spacing: 0.04rem;
+}
+
+#panelEditProduct .form-item {
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    height: 60px;
+}
+
+#panelEditProduct .form-item input[type="text"],
+#panelEditProduct .form-item select {
+    background: none;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #292929;
+    letter-spacing: 0.02rem;
+    border: none;
+    outline: none;
+}
+
+#panelEditProduct #saveProductButton {
+    background: #4DBE18;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+#panelEditProduct #saveProductButton.not-allowed {
+    cursor: not-allowed !important;
+    opacity: 0.5;
+}
+
+#panelEditProduct p,
+.popup p {
+    margin-bottom: 0 !important;
+    line-height: 20px;
+    letter-spacing: 0.03rem;
+}
+
+#panelEditProduct .product-image {
+    width: 23%;
+    margin-right: 2.6%;
+    margin-bottom: 2.6%;
+    background: #ffffff;
+}
+
+#panelEditProduct .product-image:nth-child(4n) {
+    margin-right: 0 !important;
+}

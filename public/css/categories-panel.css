@@ -1,0 +1,46 @@
+#panelCategories h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #292929;
+}
+
+#panelCategories .category-item {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #999999;
+    margin-bottom: 10px;
+    line-height: 16px;
+    letter-spacing: 0.03rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #999999;
+}
+
+#panelCategories .category-item.active span {
+    font-weight: 600 !important;
+    color: #4DBE18 !important;
+    cursor: not-allowed;
+}
+
+#panelCategories .category-item .delete-btn {
+    background-image: url(/public/img/red-bin-icon.png);
+}
+
+#panelCategories .category-item .edit-btn {
+    background-image: url(/public/img/grey-edit-icon.png);
+}
+
+#panelCategories .add-btn {
+    background-image: url(/public/img/green-add-button.png);
+}
+
+#panelCategories .empty {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#panelCategories .icon.not-allowed {
+    opacity: 0.5;
+    cursor: not-allowed !important;
+}

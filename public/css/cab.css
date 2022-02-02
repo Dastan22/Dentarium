@@ -1,0 +1,39 @@
+#cabNav,
+#cabContent {
+    width: 300px;
+    max-height: calc(100vh - 82px);
+}
+
+#cabNav h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+#cabNav .cab-nav-item:last-child {
+    border-bottom: 1px solid;
+}
+
+#cabNav .cab-nav-item {
+    border-top: 1px solid;
+    color: #292929;
+}
+
+#cabNav .cab-nav-item.active p {
+    font-weight: 600;
+}
+
+#cabNav .cab-nav-item p {
+    color: #292929;
+}
+
+#cabContent {
+    background-color: #F6F6F6;
+    height: calc(100vh - 58px);
+}
+
+@media (max-width: 768px) {
+   #cabContent {
+       height: auto;
+       max-height: none;
+   }
+}

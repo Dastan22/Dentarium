@@ -1,0 +1,67 @@
+footer {
+    background: #151515;
+}
+
+footer .footer-phone {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+footer .footer-logo {
+    height: 50px;
+}
+
+footer .footer-address {
+    color: #ffffff;
+    width: 160px;
+}
+
+footer .footer-address h5 {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+footer .footer-address-text {
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+footer .footer-copyright {
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+
+footer .footer-digitalplus img {
+    height: 18px;
+}
+
+@media (max-width: 1100px) {
+    footer .footer-logo {
+        height: 40px;
+    }
+
+    footer .footer-address {
+        width: 140px;
+    }
+
+    footer .footer-address h5 {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    footer .footer-address-text {
+        font-size: 0.8rem;
+        font-weight: 300;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 500px) {
+    footer .footer-phone {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,34 @@
+#cabOrders {
+    min-height: 27vh !important;
+}
+
+#cabOrders .order-item {
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    min-height: 100px;
+}
+
+#cabOrders .order-item .order-item-id,
+#cabOrders .order-item .order-item-date,
+#cabOrders .order-item .order-item-price,
+#cabOrders .order-item .order-item-status {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #211F20;
+}
+
+#cabOrders .order-items-products-slider {
+    overflow-x: scroll;
+    max-width: none;
+
+}
+
+#cabOrders .order-items-products-slider::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #cabOrders .order-item {
+        min-height: 200px;
+    }
+}

@@ -1,0 +1,76 @@
+#regPopup {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#regPopup .col-auto {
+    left: 350px;
+    transition: all ease 400ms;
+    width: 350px;
+    min-width: 320px;
+    background-color: #ffffff;
+    overflow-y: scroll;
+}
+
+#regPopup input[type="text"],
+#regPopup input[type="password"] {
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #999999;
+    padding-bottom: 5px;
+    color: #999999;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 19px;
+}
+
+#regPopup input[type="text"]:focus,
+#regPopup input[type="password"]:focus {
+    border-bottom: 2px solid #4DBE18;
+}
+
+#regPopup .checkbox {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #211F20;
+    border-radius: 3px;
+}
+
+#regPopup .checkbox.active .checkbox-inner {
+    width: 9px;
+    height: 9px;
+    background: #211F20;
+    border-radius: 10px;
+}
+
+#regPopup #authForm button[type="submit"] {
+    color: #ffffff;
+    background-color: #4DBE18;
+    font-size: 0.9rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+#regPopup #authForm.processing button {
+    cursor: not-allowed !important;
+    opacity: 0.5;
+}
+
+#regPopup #regForm button[type="submit"] {
+    color: #999999;
+    background-color: #F6F6F6;
+    font-size: 0.9rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+#regPopup #regForm.processing button {
+    cursor: not-allowed !important;
+    opacity: 0.5;
+}
